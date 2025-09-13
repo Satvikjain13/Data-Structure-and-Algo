@@ -1,4 +1,5 @@
 class Solution {
+    
     public boolean isPalindrome(int x) {
         int temp=x;
         int sum=0;
@@ -7,6 +8,7 @@ class Solution {
           sum=sum*10+rem;
           temp=temp/10;
         }
+
         if(sum==x){
             return true;
         }
