@@ -4,7 +4,7 @@ class Solution {
         while(i < arr.length){
             int correct=arr[i];
             if(arr[i] < arr.length && arr[i] != arr[correct]){
-                swap(arr,i,correct);
+              swap(arr,i,correct);
             }else{
                 i++;
             }
@@ -14,6 +14,7 @@ class Solution {
                 return j;
             }
         }
+        
         return arr.length;
     }
     static void swap(int[] arr,int first,int second){
