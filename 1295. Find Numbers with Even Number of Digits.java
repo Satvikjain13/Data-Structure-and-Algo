@@ -2,9 +2,8 @@ class Solution {
     public int findNumbers(int[] nums) {
         int count=0;
         for(int element : nums){
-            if(isEven(element)){
+            if(isEven(element))
                 count++;
-            }
         }return count;
     }
 
