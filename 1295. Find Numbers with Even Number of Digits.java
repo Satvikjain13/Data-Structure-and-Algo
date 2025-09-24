@@ -6,7 +6,6 @@ class Solution {
                 count++;
         }return count;
     }
-
     boolean isEven(int nums){
       int num=digit(nums);
       if(num%2==0){
