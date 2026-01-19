@@ -4,6 +4,7 @@ class Solution {
       long end=num;
 
       while(start<=end){
+        //we did this because (start+end) might exceed the range of integer
         long mid=start+(end-start)/2;
         if(mid*mid > num){
             end=mid-1;
