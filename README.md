@@ -5,4 +5,5 @@ This repository is my personal collection of **DSA implementations, problem-solv
  Covered Topics:  
 - Arrays, Strings
 
-> Goal: Sharpen problem-solving skills & prepare for coding interviews.  
+> Goal: Sharpen problem-solving skills & prepare for coding interviews.
+> LeetCode Profile : https://leetcode.com/u/Satvikjain/
